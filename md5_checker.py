@@ -13,7 +13,7 @@ from PyQt6.QtWidgets import QApplication, QWidget, QFileDialog, QMessageBox
 from PyQt6.QtGui import QPixmap, QIcon
 from hashlib import md5
 from md5_checker_ui import Ui_Form
-from mr_ico import icon_hex
+#from mr_ico import icon_hex
 
 
 class Window(QWidget, Ui_Form):
@@ -21,10 +21,10 @@ class Window(QWidget, Ui_Form):
         super().__init__()
         self.setupUi(self)
         self.setFixedSize(384, 148)
-        self.pixmap = QPixmap()
-        self.pixmap.loadFromData(bytes.fromhex(icon_hex))
-        self.icon = QIcon(self.pixmap)
-        self.setWindowIcon(self.icon)
+        #self.pixmap = QPixmap()
+        #self.pixmap.loadFromData(bytes.fromhex(icon_hex))
+        #self.icon = QIcon(self.pixmap)
+        #self.setWindowIcon(self.icon)
 
         self.line.setPlaceholderText('选择文件后生成MD5')
         self.line_2.setPlaceholderText('输入官方提供的MD5值')
@@ -38,7 +38,7 @@ class Window(QWidget, Ui_Form):
 
     def Msgbox(self, msg_text:str):
         msgBox = QMessageBox()
-        msgBox.setWindowIcon(self.icon)
+        #msgBox.setWindowIcon(self.icon)
         msgBox.setWindowTitle('提示')
         msgBox.setIcon(QMessageBox.Icon.Information)
         msgBox.setText(msg_text)
