@@ -19,7 +19,7 @@ A tool to generate md5 of file and checkout
 
 ### Instruction
 
-- Run [md5-checker.exe](md5-checker.exe)
+- Run [md5-checker.exe](md5-checker.exe) ([Download Link](https://github.com/MyGitRobot/MD5Checker/releases/download/v1.0.0/md5-checker.exe))
 
 - Click `选择文件`(Choose File) button to choose the file to be checked out and it will generate automatically the MD5 of the file
 
@@ -53,7 +53,7 @@ A tool to generate md5 of file and checkout
 
 ### 使用说明
 
-- 运行[md5-checker.exe](md5-checker.exe)
+- 运行[md5-checker.exe](md5-checker.exe) ([下载链接](https://github.com/MyGitRobot/MD5Checker/releases/download/v1.0.0/md5-checker.exe))
 
 - 点击`选择文件`按钮选择需要生成MD5值的文件，MD5会自动显示在`文件MD5`文本框内
 
